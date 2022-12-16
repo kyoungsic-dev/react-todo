@@ -22,7 +22,7 @@ export default function AddTodo({ onAdd }) {
   };
   return (
     <form onSubmit={handleSubmit} className={styles.form}>
-      <input type='text' placeholder='할 일을 추가하세요.' value={text} onChange={handleChange} />
+      <input type='text' placeholder='할 일을 추가하세요. 테스트테스트' value={text} onChange={handleChange} />
       <button type='submit'>ADD</button>
     </form>
   );
