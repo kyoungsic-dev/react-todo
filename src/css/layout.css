@@ -1,0 +1,22 @@
+#wrap { width: 100%; min-width: 320px; position: relative; margin: 0 auto; overflow: hidden; visibility: hidden; }
+#header { width: 100%; position: relative; margin: 0 auto; }
+#container { width: 100%; position: relative; margin: 0 auto; }
+.inner { max-width: 1200px; position: relative; margin-left: auto; margin-right: auto; }
+#footer { width: 100%; clear: both; position: relative; margin: 0 auto; }
+.show-default { display: block !important; }
+.hide-default { display: none !important; }
+@media all and (max-width: 1200px){
+ .inner { width: auto; margin-left: 3.90625%; margin-right: 3.90625%; }
+ }
+@media all and (max-width: 1024px){
+ .show-1024 { display: block !important; }
+ .hide-1024 { display: none !important; }
+ }
+@media all and (max-width: 768px){
+ .show-768 { display: block !important; }
+ .hide-768 { display: none !important; }
+ }
+@media all and (max-width: 480px){
+ .show-568 { display: block !important; }
+ .hide-568 { display: none !important; }
+ }

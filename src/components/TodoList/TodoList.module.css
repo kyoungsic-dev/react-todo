@@ -1,0 +1,1 @@
+.list{padding:15px;max-height:500px;overflow-y:scroll}.list::-webkit-scrollbar{width:5px;background-color:#f1f1f1;-webkit-transition:all .3s ease;transition:all .3s ease}.list::-webkit-scrollbar-thumb{background:#c1c1c1;-webkit-transition:all .3s ease;transition:all .3s ease}.list::-webkit-scrollbar-thumb:hover{background:var(--point)}

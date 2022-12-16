@@ -1,0 +1,1 @@
+.form{background-color:var(--color01);padding:15px;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex}.form input{background-color:#fff;line-height:40px;height:40px;-webkit-box-flex:1;-ms-flex:1;flex:1;border-radius:5px 0 0 5px;padding-left:12px;font-size:16px;color:#000}.form button{width:80px;background-color:#23233b;border-radius:0 5px 5px 0;color:#fff}
